@@ -1,0 +1,3 @@
+curl 'https://:27800/api/public/wireguardchannel/exchangepubkey' \
+--header 'Content-Type: application/json' \
+--data '{"CommonReq": {"GroupID": 11,"UserID": "","UserName": "","MID": "","RequestID": "","LoginTicket": ""},"ClientPubKey": "","MD5": "","IfUpdate": true}' -k

@@ -1,0 +1,1 @@
+go run main.go -c 1000 -n 100 -p curl/exchange.txt
